@@ -3,4 +3,6 @@ function saludar(nombre) {
     console.log("Hola " + nombre);
 }
 
-saludar("julian");
+const nombre = process.argv[2];
+
+saludar(nombre);
